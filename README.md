@@ -4,7 +4,7 @@ react-native-nitro-switch is a react native package built with Nitro
 
 [![Version](https://img.shields.io/npm/v/react-native-nitro-switch.svg)](https://www.npmjs.com/package/react-native-nitro-switch)
 [![Downloads](https://img.shields.io/npm/dm/react-native-nitro-switch.svg)](https://www.npmjs.com/package/react-native-nitro-switch)
-[![License](https://img.shields.io/npm/l/react-native-nitro-switch.svg)](https://github.com/patrickkabwe/react-native-nitro-switch/LICENSE)
+[![License](https://img.shields.io/npm/l/react-native-nitro-switch.svg)](https://github.com/chicojasl/react-native-nitro-switch/blob/main/LICENSE)
 
 ## Demo
 
