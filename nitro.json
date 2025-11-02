@@ -1,0 +1,23 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "nitroswitch"
+  ],
+  "ios": {
+    "iosModuleName": "NitroSwitch"
+  },
+  "android": {
+    "androidNamespace": [
+      "nitroswitch"
+    ],
+    "androidCxxLibName": "NitroSwitch"
+  },
+  "autolinking": {
+    "NitroSwitch": {
+      "kotlin": "HybridNitroSwitch"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}

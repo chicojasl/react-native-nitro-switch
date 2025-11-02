@@ -1,0 +1,15 @@
+{
+  "uiViewClassName": "NitroSwitch",
+  "supportsRawText": false,
+  "bubblingEventTypes": {},
+  "directEventTypes": {},
+  "validAttributes": {
+    "value": true,
+    "onValueChange": true,
+    "disabled": true,
+    "thumbColor": true,
+    "trackColor": true,
+    "trackDecorationColor": true,
+    "hybridRef": true
+  }
+}
