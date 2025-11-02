@@ -4,7 +4,6 @@ import { callback } from 'react-native-nitro-modules';
 import { processColor, StyleSheet } from 'react-native';
 import type { ISwitchProps } from './types';
 
-
 const processVariantColor = (color?: string | { on: string; off: string }) => {
   if (!color) return undefined;
   if (typeof color === "string") return processColor(color) as number;
@@ -16,10 +15,13 @@ const processVariantColor = (color?: string | { on: string; off: string }) => {
 
 const MaterialSwitch = ({ onValueChange, style, ...props }: ISwitchProps) => {
   return (
-    <NitroSwitch {...props} style={[styles.switch, style]} 
+    <NitroSwitch 
+      {...props} 
+      style={[styles.switch, style]} 
       thumbColor={processVariantColor(props.thumbColor)}
       trackColor={processVariantColor(props.trackColor)}
-      trackDecorationColor={processVariantColor(props.trackDecorationColor)} onValueChange={callback(onValueChange)} />
+      trackDecorationColor={processVariantColor(props.trackDecorationColor)} 
+      onValueChange={callback(onValueChange)} />
   );
 };
 
